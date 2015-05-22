@@ -1,9 +1,10 @@
-# ShaderSystemIntegration-Nebula2
-A backup of the article which was contributed on ShaderX5
+
+A backup of the article which was contributed on [ShaderX5](http://www.shaderx5.com/), published in 2006.
 
 
 # Shader System Integration: Nebula2 and 3ds Max
-Kim Hyoun Woo
+
+*Kim Hyoun Woo*
 
 Introduction
 ------------
