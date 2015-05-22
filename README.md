@@ -11,13 +11,13 @@ This article presents ideas for integrating shader systems into DCC tools for ar
 
 The system described here should be considered by both programmers and artists, as it has the following key features:
 
-•	It proposes an easy and flexible way to integrate a shader system into any 3D art package.
-•	It should take a little time to implement, and should easily integrate into existing code bases.
-•	It does not require modifications to existing shader code (e.g. for exposing UI controls in the 3D art package for shader parameters).
-•	It is independent of the actual shader code. Shaders can be written in any language and still get exposed properly for preview and tweaking.
-•	It shows how to provide an easy to use UI for specifying shader parameters.
-•	It provides users with instant feedback as they tweak shader parameters from within the 3D art package.
-•	It does not require the use of DCC tools SDKs to do the integration.
+* It proposes an easy and flexible way to integrate a shader system into any 3D art package.
+* It should take a little time to implement, and should easily integrate into existing code bases.
+* It does not require modifications to existing shader code (e.g. for exposing UI controls in the 3D art package for shader parameters).
+* It is independent of the actual shader code. Shaders can be written in any language and still get exposed properly for preview and tweaking.
+* It shows how to provide an easy to use UI for specifying shader parameters.
+* It provides users with instant feedback as they tweak shader parameters from within the 3D art package.
+* It does not require the use of DCC tools SDKs to do the integration.
 
 Art Pipeline Integration
 ------------------------
@@ -32,8 +32,8 @@ Figure 1. Workflow of the Nebula2 3ds Max Toolkit.
 The diagram above shows that effect files (which are written by a shader programmer) are copied to a predetermined location that the game engine knows about. The plug-in inside the 3D art package then dynamically generates UI controls for tweaking shader parameters of a particular shader (in our case, this plug-in is nmaxtoolbox). The UI information is extracted by parsing a shaders.xml file (which is created by a programmer). Finally, the game engine depends on the renderpath.xml file to know where it should look for the actual shader code.
 
 To suffice artists’ needs, the plug-in must support at least two things:
-•	Easy-to-use user interface for tweaking shader parameters.
-•	Real-time feedback during shader parameters tweaking.
+* Easy-to-use user interface for tweaking shader parameters.
+* Real-time feedback during shader parameters tweaking.
 
 In the case of 3ds Max, perhaps one of the easiest ways to provide a decent user-interface for editing shader parameters is to use the program’s scripting facility.
 For nmaxtoolbox, the parameters for each shader are described in an XML meta file (shaders.xml). This meta file contains the name, type, and the default value for each parameter, as well as additional information that is useful for the plug-in.
