@@ -191,7 +191,7 @@ A preview window is launched after the 3D object gets exported in order to load 
 
 Acknowledgements
 ----------------
-I would like to thank RadonLabs for their efforts on The Nebula Device open-source 3D engine. Also, thanks to Vadim Macagon (the author of The Nebula2 LigihtWave Toolkit) for his help with this article.
+I would like to thank RadonLabs for their efforts on The Nebula Device open-source 3D engine. Also, thanks to [Vadim Macagon](https://github.com/enlight) (the author of The Nebula2 LigihtWave Toolkit) for his help with this article.
 
 References
 ----------
