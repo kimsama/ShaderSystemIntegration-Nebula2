@@ -195,7 +195,7 @@ I would like to thank RadonLabs for their efforts on The Nebula Device open-sour
 
 References
 ----------
-[Nebula06] The Nebula Device, available online at http://www.nebuladevice.org.
-[DXSAS01] “DirectX Standard Annotations and Semantics Reference”, DirectX 9 SDK Documentation, Microsoft Corp., 2006.
-[NebulaMayaTookit06] Nebula2 Toolkit 2.0 for Maya®, available online at http://www.radonlabs.de/toolkit.html.
-[Bahnassi05] Homam Bahnassi and Wessam Bahnassi, “Shader Visualization Systems for the Art Pipeline”, ShaderX3: Advanced Rendering with DirectX and OpenGL, Wolfgang Engel, ed., Charles River Media, 2005, pp. 487-504.
+- [Nebula06] The Nebula Device, available online at http://www.nebuladevice.org.
+- [DXSAS01] “DirectX Standard Annotations and Semantics Reference”, DirectX 9 SDK Documentation, Microsoft Corp., 2006.
+- [NebulaMayaTookit06] Nebula2 Toolkit 2.0 for Maya®, available online at http://www.radonlabs.de/toolkit.html.
+- [Bahnassi05] Homam Bahnassi and Wessam Bahnassi, “Shader Visualization Systems for the Art Pipeline”, ShaderX3: Advanced Rendering with DirectX and OpenGL, Wolfgang Engel, ed., Charles River Media, 2005, pp. 487-504.
